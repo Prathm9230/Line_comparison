@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class Linecomparison {
     public static void main(String[] args) {
-        /*System.out.println("Welcome to Line comaprison problems.");
+        System.out.println("Welcome to Line comaprison problems.");
         //UC1:Calculate length of line.
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the value of x1:");
@@ -16,7 +16,7 @@ public class Linecomparison {
         float y2 = sc.nextInt();
 
         double Length =  Math.sqrt(Math.pow((x2-x1),2) + Math.pow((y2-y1),2));
-        System.out.println("The length of line is:"+Length);*/
+        System.out.println("The length of line is:"+Length);
 
         //uC-2:To check equality of two lines.
         double l1,l2;
