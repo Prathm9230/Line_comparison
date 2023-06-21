@@ -3,7 +3,6 @@ import java.util.Scanner;
 
 public class Linecomparison {
     public static void main(String[] args) {
-        System.out.println("Welcome to Line comaprison problems.");
         //UC1:Calculate length of line.
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the value of x1:");
