@@ -53,7 +53,7 @@ public class Linecomparison {
             System.out.println("Line l1 is not equals to Line l2");
         }
     }
-}*/
+}
     //UC-3:To   calculate whether one line is equal,greater or less than other line
         double l1,l2;
         Scanner sc = new Scanner(System.in);
