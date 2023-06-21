@@ -41,6 +41,8 @@ public class Linecomparison {
 
         l1 =  Math.sqrt(Math.pow((x2-x1),2) + Math.pow((y2-y1),2));
         l2 =  Math.sqrt(Math.pow((a2-a1),2) + Math.pow((b2-b1),2));
+        System.out.println("Length of line l1 is:"+l1);
+        System.out.println("Length of line l2 is:"+l2);
 
         if(l1 == l2)
         {
