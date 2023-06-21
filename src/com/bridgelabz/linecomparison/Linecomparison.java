@@ -16,7 +16,7 @@ public class Linecomparison {
         float y2 = sc.nextInt();
 
         double Length =  Math.sqrt(Math.pow((x2-x1),2) + Math.pow((y2-y1),2));
-        System.out.println("The length of line is:"+Length);*/
+        System.out.println("The length of line is:"+Length);
 
         //uC-2:To check equality of two lines.
         double l1,l2;
@@ -41,6 +41,8 @@ public class Linecomparison {
 
         l1 =  Math.sqrt(Math.pow((x2-x1),2) + Math.pow((y2-y1),2));
         l2 =  Math.sqrt(Math.pow((a2-a1),2) + Math.pow((b2-b1),2));
+        System.out.println("Length of line l1 is:"+l1);
+        System.out.println("Length of line l2 is:"+l2);
 
         if(l1 == l2)
         {
@@ -49,6 +51,46 @@ public class Linecomparison {
         else
         {
             System.out.println("Line l1 is not equals to Line l2");
+        }
+    }
+}*/
+    //UC-3:To   calculate whether one line is equal,greater or less than other line
+        double l1,l2;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the value of a1:");
+        int a1 = sc.nextInt();
+        System.out.println("Enter the value of b1:");
+        int b1 = sc.nextInt();
+        System.out.println("Enter the value of a2:");
+        int a2 = sc.nextInt();
+        System.out.println("Enter the value of b2:");
+        int b2 = sc.nextInt();
+
+        System.out.println("Enter the value of p1:");
+        int p1 = sc.nextInt();
+        System.out.println("Enter the value of q1:");
+        int q1 = sc.nextInt();
+        System.out.println("Enter the value of p2:");
+        int p2 = sc.nextInt();
+        System.out.println("Enter the value of q2:");
+        int q2 = sc.nextInt();
+
+        l1 =  Math.sqrt(Math.pow((a2-a1),2) + Math.pow((b2-b1),2));
+        l2 =  Math.sqrt(Math.pow((p2-p1),2) + Math.pow((q2-q1),2));
+        System.out.println("Length of line l1 is:"+l1);
+        System.out.println("Length of line l2 is:"+l2);
+
+        if (l1>l2)
+        {
+            System.out.println("Line l1 greater than Line l2.");
+        }
+        else if (l1<l2)
+        {
+            System.out.println("Line l1 less than Line l2.");
+        }
+        else
+        {
+            System.out.println("Line l1 is equals to Line l2");
         }
     }
 }
